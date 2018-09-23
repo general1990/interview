@@ -80,6 +80,8 @@
  # 二 java基础
 * 开发中Java用了比较多的数据结构有哪些
 
+* Java 中的排序工具有哪些；区别
+
 * 集合类：List和Set比较，各自的子类比较（ArrayList，Vector，LinkedList；HashSet，TreeSet）；
 
 * HashMap的底层实现，之后会问ConcurrentHashMap的底层实现；
