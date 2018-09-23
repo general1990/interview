@@ -5,115 +5,6 @@
 
 * get和post的基本区别？说说 tcp/ip协议，三次握手，窗口滑动机制
 
-* 简述一下生产者消费者模式。
-
-* 常见的加密解密
-
-* rdeis中的基本存储类型、事务、使用场景
-
-* 如何保障请求的执行顺序
-
-* Dubbo的超时重试，Dubbo超时时间设置
-
-* 分布式事务与分布式锁怎样保障扣款不出现负数
-
-* 分布式session如何设置的
-
-* Zookeeper有哪些作用
-
-* JVM 内存模型，jvm加载原理
-
-* 数据库垂直和水平拆分
-
-* MyBatis如何分页；如何设置缓存；MySQL分页
-
-* 熟悉IO么？与NIO的区别，阻塞与非阻塞的区别
-
-* 分布式session一致性
-
-* 分布式接口的幂等性设计（不能重复扣款）
-
-* 画一下项目技术架构图
-
-* JVM老年代和新生代的比例？
-
-* jstack,jmap,jutil分别的意义？如何线上排查JVM的相关问题
-
-* 线程池的构造类的方法的5个参数的具体意义
-
-* Set的实现原理
-
-* 单机上一个线程池正在处理服务如果忽然断电怎么办?(正在处理和阻塞队列里的请求怎么处理)
-
-* 使用无界阻塞队列会出现什么问题
-
-* 接口如何处理重复请求
-
-* 如何保证共享变量修改时的原子性
-
-* 设计一个对外服务的接口实现类，在1，2，3三个主机（不同ip）上实现负载均衡和顺序轮询机制（考虑并发）
-
-* concurrentMap,TreeMap的机制
-
-* volatile 关键字
-
-* 简诉 快速排序
-
-* 高并发下分布式的缓存一致性？
-
-* mysql大表优化方案
-
-* springAOP，IOC的实现原理，以及他的应用是实现
-
-* redis和memcached的区别
-
-* spring要把一个组件注入spring中应该怎么做
-
-* spring 使用了哪些设计模式
-
-* 手机扫二维码登录的实现原理
-
-* 结合内存说下多线程、进程、线程的区别
-
-* collection的理解，选择一种说下底层实现
-
- # 二 java基础
-* 开发中Java用了比较多的数据结构有哪些
-
-* Java 中的排序工具有哪些；区别
-
-* 集合类：List和Set比较，各自的子类比较（ArrayList，Vector，LinkedList；HashSet，TreeSet）；
-
-* HashMap的底层实现，之后会问ConcurrentHashMap的底层实现；
-
-* 如何实现HashMap顺序存储：可以参考LinkedHashMap的底层实现；
-
-* HashTable和ConcurrentHashMap的区别；
-
-* String,StringBuffer和StringBuilder的区别；
-
-* Object的方法有哪些：比如有wait方法，为什么会有；
-
-* wait和sleep的区别，必须理解；
-
-* JVM的内存结构，JVM的算法；
-
-* 强引用，软引用和弱引用的区别；
-
-* 数组在内存中如何分配；
-
-* 用过哪些设计模式，手写一个（除单例）；
-
-* springmvc的核心是什么，请求的流程是怎么处理的，控制反转怎么实现的；
-
-* spring里面的aop的原理是什么；
-
-* mybatis如何处理结果集：反射，建议看看源码；
-
-* java的多态表现在哪里；
-
-* 接口有什么用；
-
 * 说说http,https协议；
 
 * tcp/ip协议簇；
@@ -122,107 +13,139 @@
 
 * tcp，udp区别；
 
-* 用过哪些加密算法：对称加密，非对称加密算法；
-
 * 说说tcp三次握手，四次挥手；
 
-* cookie和session的区别，分布式环境怎么保存用户状态；
 
-* git，svn区别；
+ # 二 java知识点
+ 
+	 ## java基础
 
-* 请写一段栈溢出、堆溢出的代码；
+	 * 开发中Java用了比较多的数据结构有哪些
 
-* ThreadLocal可以用来共享数据吗；
+	 * Java 中的排序工具有哪些；有什么区别？
 
-* 线程的实现方式、什么是锁重入
+	 * String,StringBuffer和StringBuilder的区别；
 
-* JVM运行时划分
+	* Object的方法有哪些：比如有wait方法，为什么会有；
 
-* 谈谈你对HashMap的理解，底层的基本实现。HashMap是怎么解决碰撞问题的？这些数据结构中是线程安全的吗？
+	* wait和sleep的区别，必须理解；
 
-* 简单说说类加载过程，里面执行了哪些操作？GC和内存管理，平时在tomcat里面有没有进行过相关的配置
+	* 强引用，软引用和弱引用的区别；
 
-* 如何线上排查JVM的相关问题
+	* java的多态表现在哪里；
 
-* 谈谈你对java平台的理解
+	* 接口有什么用；
 
-* Exception和Error有什么区别
+	* ThreadLocal可以用来共享数据吗；
 
-* 谈谈final,finally,finalize有什么不同
+	* 谈谈你对HashMap的理解，底层的基本实现。HashMap是怎么解决碰撞问题的？这些数据结构中是线程安全的吗？
 
-* 强应用，软应用，弱应用，幻想应用有什么区别
+	* 谈谈你对java平台的理解
 
-* Stirng,StringBuffer,StringBuilder 有什么区别
+	* Exception和Error有什么区别
 
-* 动态代理是基于什么原理
+	* 谈谈final,finally,finalize有什么不同
 
-* int和Integer有什么区别？自己写一个Integer
+	* 强应用，软应用，弱应用，幻想应用有什么区别
 
-* 对比Vector，ArrayList,LinkedList有何区别
+	* Stirng,StringBuffer,StringBuilder 有什么区别
 
-* 对比Hashtable,HashMap,TreeMap有什么不同
+	* 动态代理是基于什么原理
 
-* 如何保证集合是线程安全的？ConcurrentHashMap如何实现高效的线程安全？
+	* int和Integer有什么区别？自己写一个Integer
 
-* java提供哪些IOS方式，NIO如何实现多路复用？
+	* java提供哪些IOS方式，NIO如何实现多路复用？
 
-* Java有集中文件拷贝方式？哪一种最高效
+	* Java有集中文件拷贝方式？哪一种最高效
 
-* 谈谈接口和抽象类有什么区别？
+	* 谈谈接口和抽象类有什么区别？
 
-* 谈谈你知道的设计模式
+	* synchronized和ReentrantLock有什么区别？
 
-* synchronized和ReentrantLock有什么区别？
+	* synchronized底层如何实现？什么是锁升级，降级？
 
-* synchronized底层如何实现？什么是锁升级，降级？
+	* 一个线程二次调用start()方法会出现什么情况
 
-* 一个线程二次调用start()方法会出现什么情况
+	* 什么情况下java程序会产生死锁？如何定位，修复？
 
-* 什么情况下java程序会产生死锁？如何定位，修复？
+	* java并发包提供了哪些并发工具类
 
-* java并发包提供了哪些并发工具类
+	* java并发类库提供的线程池有哪几种？分别有什么特点？
 
-* 并发包中的ConcurrentLinkedQueue和LinkedBlockingQueue有什么区别
+	* AtomicInteger底层实现原理是什么？如何在自己的产品代码中应用CAS操作
 
-* java并发类库提供的线程池有哪几种？分别有什么特点？
+	* 有哪些方法可以在运行时动态生成一个Java类？
 
-* AtomicInteger底层实现原理是什么？如何在自己的产品代码中应用CAS操作
+	* 你了解java应用开发中的注入攻击吗？
 
-* 请介绍类加载过程，什么是双亲委派模型？
+	* 如何写出安全的java代码？
+ 
+	 ## java集合
 
-* 有哪些方法可以在运行时动态生成一个Java类？
+	 * 集合类：List和Set比较，各自的子类比较（ArrayList，Vector，LinkedList；HashSet，TreeSet）；
 
-* 谈谈JVM内存区域的划分，哪些区域可能发生OutOfMemoryError？
+	 * HashMap的底层实现，之后会问ConcurrentHashMap的底层实现；
 
-* 如何监控和诊断JVM堆外内存使用？
+	* 如何实现HashMap顺序存储：可以参考LinkedHashMap的底层实现；
 
-* java常见的垃圾收集器有哪些？
+	* HashTable和ConcurrentHashMap的区别；
 
-* 谈谈你的GC调优思路？
+	* 对比Vector，ArrayList,LinkedList有何区别
 
-* java内存模型中的happen-before是什么？
+	* 对比Hashtable,HashMap,TreeMap有什么不同
 
-* 你知道JVM 几天的内部机制吗？
+	* 如何保证集合是线程安全的？ConcurrentHashMap如何实现高效的线程安全？
 
-* 你了解java应用开发中的注入攻击吗？
+	* 并发包中的ConcurrentLinkedQueue和LinkedBlockingQueue有什么区别
 
-* 如何写出安全的java代码？
+	* Set的实现原理
 
-* java后台服务明显变慢，谈谈你的诊断思路？ 
+	* concurrentMap,TreeMap的机制
 
-* 谈谈乐观锁和悲观锁的原理和应用场景？
+	 ## jvm
 
-* 谈谈Spring Bean的生命周期和作用域？
+	* JVM的内存结构，JVM的算法；
 
-* 什么场景下需要用到Netty？对比java标准NIO类库，你知道Netty如何时间更高性能吗？
+	* 数组在内存中如何分配；
 
-* 谈谈你了解的常用的风不是id的设计方案？
+	* 请写一段栈溢出、堆溢出的代码；
 
-* 分布式锁实现方式
+	* 线程的实现方式、什么是锁重入
 
-* CAP简介
+	* JVM运行时划分
 
-* 什么是幂等性
+	* JVM 内存模型，jvm加载原理
+
+	* 简单说说类加载过程，里面执行了哪些操作？GC和内存管理，平时在tomcat里面有没有进行过相关的配置
+
+	* 如何线上排查JVM的相关问题
+
+	* 请介绍类加载过程，什么是双亲委派模型？
+
+	* 谈谈JVM内存区域的划分，哪些区域可能发生OutOfMemoryError？
+
+	* 如何监控和诊断JVM堆外内存使用？
+
+	* java常见的垃圾收集器有哪些？
+
+	* 谈谈你的GC调优思路？
+
+	* java内存模型中的happen-before是什么？
+
+	* 你知道JVM 几天的内部机制吗？
+
+	* java后台服务明显变慢，谈谈你的诊断思路？ 
+
+	* JVM老年代和新生代的比例？
+
+	* jstack,jmap,jutil分别的意义？如何线上排查JVM的相关问题
+
+
+	## 多线程
+
+	* volatile 关键字
+
+	* 线程池的构造类的方法的5个参数的具体意义
  
  
  # 二. IO:
@@ -230,6 +153,12 @@
 *  bio，nio，aio的区别；
 
 * nio框架：dubbo的实现原理；
+
+* 熟悉IO么？与NIO的区别，阻塞与非阻塞的区别
+
+* 结合内存说下多线程、进程、线程的区别
+
+* collection的理解，选择一种说下底层实现
 
 
 
@@ -280,7 +209,12 @@
 * 悲观锁和乐观锁的区别，怎么实现；
 
 * SQL语句的执行顺序
+
 * 开发中用了哪些数据库？ mysql存储引擎有哪些？区别有哪些？悲观锁和乐观锁使用场景、分布式集群实现的原理？
+
+* 数据库垂直和水平拆分
+
+* mysql大表优化方案
 
 
  # 六. mq：
@@ -298,6 +232,8 @@
 
 * 用redis做过什么；
 
+* rdeis中的基本存储类型、事务、使用场景
+
 * redis是如何持久化的：rdb和aof；
 
 * redis集群如何同步；
@@ -309,9 +245,12 @@
 * redis有哪些数据结构；
 
 
+
  # 八. zookeeper:
 
 * zookeeper是什么；
+
+* Zookeeper有哪些作用
 
 * zookeeper哪里用到；
 
@@ -351,6 +290,9 @@
  # 十一、三大框架方面问题
   
 *  springMVC和mybatis的工作原理，底层源码理解多少？
+
+* springAOP，IOC的实现原理，以及他的应用是实现
+
 * Spring 事务的隔离性，并说说每个隔离性的区别
 解答：Spring事务详解
 
@@ -368,6 +310,21 @@
 
 * Spring 4.0新特性
 解答：Spring4新特性
+
+* spring要把一个组件注入spring中应该怎么做
+
+* spring 使用了哪些设计模式
+
+* springmvc的核心是什么，请求的流程是怎么处理的，控制反转怎么实现的；
+
+* spring里面的aop的原理是什么；
+
+
+* 谈谈Spring Bean的生命周期和作用域？
+
+*  MyBatis如何分页；如何设置缓存；MySQL分页
+
+* mybatis如何处理结果集：反射，建议看看源码；
 
  # 十二. 负载均衡、集群相关
 * weblogic 负载均衡的原理和集群的配置
@@ -424,6 +381,66 @@ B、垂直权限漏洞
 存储过程的优缺点
 
 * 触发器的原理和作用
+
+# 十五
+
+	* 简诉 快速排序
+
+# 十五、架构
+
+* 简述一下生产者消费者模式。
+
+* 常见的加密解密
+
+* 如何保障请求的执行顺序
+
+* 分布式事务与分布式锁怎样保障扣款不出现负数
+
+* 分布式session如何设置的
+
+* 分布式session一致性
+
+* 分布式接口的幂等性设计（不能重复扣款）
+
+* 画一下项目技术架构图
+
+* 单机上一个线程池正在处理服务如果忽然断电怎么办?(正在处理和阻塞队列里的请求怎么处理)
+
+* 使用无界阻塞队列会出现什么问题
+
+* 接口如何处理重复请求
+
+* 如何保证共享变量修改时的原子性
+
+* 设计一个对外服务的接口实现类，在1，2，3三个主机（不同ip）上实现负载均衡和顺序轮询机制（考虑并发）
+
+* 高并发下分布式的缓存一致性？
+
+* 手机扫二维码登录的实现原理
+
+* 用过哪些设计模式，手写一个（除单例）；
+
+* 用过哪些加密算法：对称加密，非对称加密算法；
+
+* cookie和session的区别，分布式环境怎么保存用户状态；
+
+* git，svn区别；
+
+* 谈谈你知道的设计模式
+
+* 谈谈乐观锁和悲观锁的原理和应用场景？
+
+* 什么场景下需要用到Netty？对比java标准NIO类库，你知道Netty如何时间更高性能吗？
+
+* 谈谈你了解的常用的风不是id的设计方案？
+
+* 分布式锁实现方式
+
+* CAP简介
+
+* 什么是幂等性
+
+
 
 
 友情链接：
