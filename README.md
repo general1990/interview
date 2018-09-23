@@ -67,11 +67,13 @@
 	[《java中的多态表现》](https://blog.csdn.net/bauterujj/article/details/73091113)
 
 * 接口有什么用；
+
 	解答: [Java 中的接口有什么作用](https://www.zhihu.com/question/20111251/answer/14012223)
+	
 
 * ThreadLocal可以用来共享数据吗；
-
-* 谈谈你对java平台的理解
+	* ThreadLocal设计的目的就是为了能够在当前线程中有属于自己的变量，并不是为了解决并发或者共享变量的问题
+	解答: [ThreadLocal就是这么简单](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247484118&idx=1&sn=da3e4c4cfd0642687c5d7bcef543fe5b&chksm=ebd743d7dca0cac19a82c7b29b5b22c4b902e9e53bd785d066b625b4272af2a6598a0cc0f38e#rd)
 
 * Exception和Error有什么区别
 
@@ -108,6 +110,8 @@
 * 你了解java应用开发中的注入攻击吗？
 
 * 如何写出安全的java代码？
+
+* 谈谈你对java平台的理解
 
  ## java集合
 
