@@ -413,32 +413,6 @@
 
 * 数据库垂直和水平拆分
 
-
-
-
-友情链接：
-
-https://bbs.csdn.net/topics/391909962
-
-https://blog.csdn.net/sinat_35512245/article/details/59056120
-
-http://www.importnew.com/17232.html
-
-https://blog.csdn.net/sinat_35512245/article/details/60325685
-
-https://blog.csdn.net/sinat_35512245/article/details/58209966
-
-http://www.importnew.com/23549.html
-
-http://www.importnew.com/23557.html
-
-https://github.com/xingshaocheng/architect-awesome
-
-
-http://www.importnew.com/22056.html
-
-
-
 # 模拟面试 
 
 1）数据结构方面。
@@ -526,3 +500,26 @@ IO包和NIO包的内容相对来说不是很多，首先NIO模型要熟悉，特
 问完以后，还可能会让你结合内存模型的设计谈谈volatile关键字的作用？
 
 你在谈的时候，肯定会提到可见性，那么接着可见性这三个字，还可以继续问你并发的内容。
+
+
+# 特别感谢
+以上内容整理来自：
+友情链接：
+
+https://bbs.csdn.net/topics/391909962
+
+https://blog.csdn.net/sinat_35512245/article/details/59056120
+
+http://www.importnew.com/17232.html
+
+https://blog.csdn.net/sinat_35512245/article/details/60325685
+
+https://blog.csdn.net/sinat_35512245/article/details/58209966
+
+http://www.importnew.com/23549.html
+
+http://www.importnew.com/22056.html
+
+http://www.importnew.com/23557.html
+
+https://github.com/xingshaocheng/architect-awesome
