@@ -37,6 +37,10 @@
 	 解答: [java 中几种常用数据结构](https://blog.csdn.net/qq_31615049/article/details/80545713)
 
  * Java 中的排序工具有哪些；有什么区别？
+ 	* Collections.sort算法调用的是合并排序。
+	* Arrays.sort() 采用了2种排序算法 -- 基本类型数据使用快速排序法，对象数组使用归并排序。
+	[《Arrays.sort和Collections.sort实现原理解析》](https://www.cnblogs.com/zhanht/p/5450325.html)
+	
 
  * String,StringBuffer和StringBuilder的区别；
 
