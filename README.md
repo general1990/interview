@@ -22,10 +22,6 @@
 
  * 开发中Java用了比较多的数据结构有哪些
  
- ![头像](https://img-blog.csdn.net/20180602102328655?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMxNjE1MDQ5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
- 
- ![](https://img-blog.csdn.net/20180602113323887?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMxNjE1MDQ5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
- 
 	 解答: [java 中几种常用数据结构](https://blog.csdn.net/u010947402/article/details/51878166)
 
  * Java 中的排序工具有哪些；有什么区别？
