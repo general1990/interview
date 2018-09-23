@@ -352,6 +352,17 @@ B、垂直权限漏洞
 解答：参考
 
 
+友情链接：
+https://bbs.csdn.net/topics/391909962
+https://blog.csdn.net/sinat_35512245/article/details/59056120
+http://www.importnew.com/17232.html
+https://blog.csdn.net/sinat_35512245/article/details/60325685
+https://blog.csdn.net/sinat_35512245/article/details/58209966
+http://www.importnew.com/23549.html
+http://www.importnew.com/23557.html
+
+
+
 
 
 
