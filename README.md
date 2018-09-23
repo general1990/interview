@@ -503,8 +503,7 @@ IO包和NIO包的内容相对来说不是很多，首先NIO模型要熟悉，特
 
 
 # 特别感谢
-以上内容整理来自：
-友情链接：
+以上内容整理选自：
 
 https://bbs.csdn.net/topics/391909962
 
@@ -522,4 +521,4 @@ http://www.importnew.com/22056.html
 
 http://www.importnew.com/23557.html
 
-https://github.com/xingshaocheng/architect-awesome
+[后端架构师技术图谱](https://github.com/xingshaocheng/architect-awesome)
