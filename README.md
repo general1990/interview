@@ -1,6 +1,7 @@
 <h1>中高级java面试题整理<h1>
 
  # 一 前端
+ 
 * 简述一下HTTP请求的在客户端和服务端的请求过程
 
 * get和post的基本区别？说说 tcp/ip协议，三次握手，窗口滑动机制
@@ -22,7 +23,7 @@
 
  * 开发中Java用了比较多的数据结构有哪些
  
-	 解答: [java 中几种常用数据结构](https://blog.csdn.net/u010947402/article/details/51878166)
+	 解答: [java 中几种常用数据结构](https://blog.csdn.net/qq_31615049/article/details/80545713)
 
  * Java 中的排序工具有哪些；有什么区别？
 
@@ -40,8 +41,6 @@
 
 * ThreadLocal可以用来共享数据吗；
 
-* 谈谈你对HashMap的理解，底层的基本实现。HashMap是怎么解决碰撞问题的？这些数据结构中是线程安全的吗？
-
 * 谈谈你对java平台的理解
 
 * Exception和Error有什么区别
@@ -49,8 +48,6 @@
 * 谈谈final,finally,finalize有什么不同
 
 * 强应用，软应用，弱应用，幻想应用有什么区别
-
-* Stirng,StringBuffer,StringBuilder 有什么区别
 
 * 动态代理是基于什么原理
 
@@ -97,6 +94,8 @@
 * 对比Vector，ArrayList,LinkedList有何区别
 
 * 对比Hashtable,HashMap,TreeMap有什么不同
+
+* 谈谈你对HashMap的理解，底层的基本实现。HashMap是怎么解决碰撞问题的？这些数据结构中是线程安全的吗？
 
 * 如何保证集合是线程安全的？ConcurrentHashMap如何实现高效的线程安全？
 
@@ -313,13 +312,9 @@
 
 * 谈谈Spring Bean的生命周期和作用域？
 
-*  MyBatis如何分页；如何设置缓存；MySQL分页
+* MyBatis如何分页；如何设置缓存；MySQL分页
 
-* mybatis如何处理结果集：反射，建议看看源码；
-
-
-
-
+*  mybatis如何处理结果集：反射，建议看看源码；
 
 
 	
