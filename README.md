@@ -505,20 +505,12 @@ IO包和NIO包的内容相对来说不是很多，首先NIO模型要熟悉，特
 # 特别感谢
 以上内容整理选自：
 
-https://bbs.csdn.net/topics/391909962
-
-https://blog.csdn.net/sinat_35512245/article/details/59056120
-
-http://www.importnew.com/17232.html
-
-https://blog.csdn.net/sinat_35512245/article/details/60325685
-
-https://blog.csdn.net/sinat_35512245/article/details/58209966
-
-http://www.importnew.com/23549.html
-
-http://www.importnew.com/22056.html
-
-http://www.importnew.com/23557.html
-
+[各大公司Java后端开发面试题总结](https://blog.csdn.net/sinat_35512245/article/details/59056120)
+[历年阿里面试题汇总](https://blog.csdn.net/sinat_35512245/article/details/60325685)
+[2017年小米春招内推面试面经](https://blog.csdn.net/sinat_35512245/article/details/58209966)
+[最近5年133个Java面试问题列表](http://www.importnew.com/17232.html)
+[面试总结 —— 高级JAVA工程师](https://bbs.csdn.net/topics/391909962)
+[阿里面试回来，想和Java程序员谈一谈](http://www.importnew.com/22056.html)
+[面试的角度诠释Java工程师（一）](http://www.importnew.com/23549.html)
+[面试的角度诠释Java工程师（二）](http://www.importnew.com/23557.html)
 [后端架构师技术图谱](https://github.com/xingshaocheng/architect-awesome)
