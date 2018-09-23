@@ -43,16 +43,31 @@
 	[《Arrays.sort和Collections.sort实现原理解析》](https://www.cnblogs.com/zhanht/p/5450325.html)
 	
  * String,StringBuffer和StringBuilder的区别；
+	 解答: [String，StringBuilder，StringBuffer三者的区别](https://www.cnblogs.com/su-feng/p/6659064.html)
+ 	
 
 * Object的方法有哪些：比如有wait方法，为什么会有；
 
-* wait和sleep的区别，必须理解；
+ 	 解答: [Object有哪些基本的方法](http://www.cnblogs.com/Java3y/p/8985368.html)
+
+
+* wait和sleep的区别，必须理解！！！
+
+ 	解答: [sleep和wait的区别](https://www.cnblogs.com/plmnko/archive/2010/10/15/1851854.html)
+
 
 * 强引用，软引用和弱引用的区别；
 
+	解答: [Java四种引用](https://www.cnblogs.com/yw-ah/p/5830458.html)
+
 * java的多态表现在哪里；
+ 	* 接口=实现类
+	* Parent=Child； 
+	
+	[《java中的多态表现》](https://blog.csdn.net/bauterujj/article/details/73091113)
 
 * 接口有什么用；
+	解答: [Java 中的接口有什么作用](https://www.zhihu.com/question/20111251/answer/14012223)
 
 * ThreadLocal可以用来共享数据吗；
 
