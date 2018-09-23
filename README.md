@@ -21,6 +21,7 @@
  ## java基础
 
  * 开发中Java用了比较多的数据结构有哪些
+ 解答: [java 中几种常用数据结构](https://blog.csdn.net/u010947402/article/details/51878166)
 
  * Java 中的排序工具有哪些；有什么区别？
 
