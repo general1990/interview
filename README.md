@@ -3,18 +3,29 @@
  # 一 前端
  
 * 简述一下HTTP请求的在客户端和服务端的请求过程
+ 
+ 	 解答: [一次完整的HTTP请求过程](https://www.cnblogs.com/engeng/articles/5959335.html)
+	 
+* get和post的基本区别？说说 tcp/ip协议、三次握手、窗口滑动机制
 
-* get和post的基本区别？说说 tcp/ip协议，三次握手，窗口滑动机制
+	 解答: [总结get和post区别](https://www.cnblogs.com/longm/p/7205318.html?utm_source=itdadao&utm_medium=referral)
+	 
+	 解答: [认识tcp/ip协议中的http协议](https://blog.csdn.net/xc1158840657/article/details/77942832)
+	 
+	 解答: [滑动窗口机制](https://blog.csdn.net/yujun00/article/details/636495)
+	 
 
 * 说说http,https协议；
 
-* tcp/ip协议簇；
+	 解答: [http协议与https协议](https://blog.csdn.net/hla199106/article/details/46987401)
 
 * osi五层网络协议；
 
+	 解答: [五层网络协议，各层功能，各层协议](https://blog.csdn.net/qq_22238021/article/details/80279001)
+
 * tcp，udp区别；
 
-* 说说tcp三次握手，四次挥手；
+	 解答: [TCP和UDP的最完整的区别](https://blog.csdn.net/li_ning_/article/details/52117463)
 
 
  # 二 java知识点
