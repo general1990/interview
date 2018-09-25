@@ -8,6 +8,7 @@
 	 
 * get和post的基本区别？说说 tcp/ip协议、三次握手、窗口滑动机制
 
+
 	 解答: [总结get和post区别](https://www.cnblogs.com/longm/p/7205318.html?utm_source=itdadao&utm_medium=referral)
 	 
 	 解答: [认识tcp/ip协议中的http协议](https://blog.csdn.net/xc1158840657/article/details/77942832)
@@ -43,6 +44,7 @@
 	[《Arrays.sort和Collections.sort实现原理解析》](https://www.cnblogs.com/zhanht/p/5450325.html)
 	
  * String,StringBuffer和StringBuilder的区别；
+ 
 	 解答: [String，StringBuilder，StringBuffer三者的区别](https://www.cnblogs.com/su-feng/p/6659064.html)
  	
 
@@ -79,8 +81,6 @@
 * Exception和Error有什么区别
 
 * 谈谈final,finally,finalize有什么不同
-
-* 强应用，软应用，弱应用，幻想应用有什么区别
 
 * 动态代理是基于什么原理
 
@@ -319,22 +319,16 @@
 * springAOP，IOC的实现原理，以及他的应用是实现
 
 * Spring 事务的隔离性，并说说每个隔离性的区别
-解答：Spring事务详解
 
 * Spring事务的传播行为，并说说每个传播行为的区别
-解答：Spring事务详解
 
 * hibernate跟Mybatis/ ibatis 的区别，为什么选择？
-解答：Hibernate与 MyBatis的比较
 
 * struts跟spring mvc的优缺点，让你选会如何选
-解答：spring mvc与struts的区别
 
 * 简单说说Spring 事务机制
-解答：Spring事务机制
 
 * Spring 4.0新特性
-解答：Spring4新特性
 
 * spring要把一个组件注入spring中应该怎么做
 
@@ -344,13 +338,11 @@
 
 * spring里面的aop的原理是什么；
 
-
 * 谈谈Spring Bean的生命周期和作用域？
 
 * MyBatis如何分页；如何设置缓存；MySQL分页
 
 *  mybatis如何处理结果集：反射，建议看看源码；
-
 
 	
 
@@ -408,26 +400,21 @@
 
 * 什么是幂等性
 
-* weblogic 负载均衡的原理和集群的配置
-解答：a、WEBLOGIC负载均衡原理     b、负载均衡和集群的配置（参考）
+* 常用数据库连接池
 
 * Nginx+Tomcat+Redis实现负载均衡、资源分离、session共享 
-解答：参考配置
 
 * nginx配置文件详解——nginx.conf
-解答：Nginx配置文件详细说明
 
 *  web如何项目优化
-解答：这个我整理过一次，web项目性能优化（整理）
 
 * 单例模式有几种？ 如何优化？
-解答：单例模式的7种用法
 
 * 分布式锁的实现过程；
 
 * 项目并发如何处理？
+
 *  消息队列的原理和实现
-解答：1、消息队列原理     2、深入浅出 消息队列 ActiveMQ
 
 * 重构过代码没有？说说经验；
 
@@ -437,13 +424,12 @@
 
 * 单体应用和微服务的区别和目前实现方式
 
-* 简单说说数据库集群和负载均衡、分布式（我不懂这块）
-解答：负载均衡和集群参考 ， 参考2
-
+* 简单说说数据库集群和负载均衡、分布式
 
 * mysql大表优化方案
 
 * 数据库垂直和水平拆分
+
 
 # 模拟面试(连环炮)
 
