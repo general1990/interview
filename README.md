@@ -80,39 +80,18 @@
 
 * Exception和Error有什么区别
 
+	解答: [Error与Exception的区别](https://blog.csdn.net/min996358312/article/details/65729617)
+
 * 谈谈final,finally,finalize有什么不同
 
-* 动态代理是基于什么原理
-
-* int和Integer有什么区别？自己写一个Integer
-
-* java提供哪些IOS方式，NIO如何实现多路复用？
+	解答: [final、finally、finalize 的区别](https://blog.csdn.net/qwdafedv/article/details/47164577)
 
 * Java有集中文件拷贝方式？哪一种最高效
-
-* 谈谈接口和抽象类有什么区别？
-
-* synchronized和ReentrantLock有什么区别？
-
-* synchronized底层如何实现？什么是锁升级，降级？
-
-* 一个线程二次调用start()方法会出现什么情况
-
-* 什么情况下java程序会产生死锁？如何定位，修复？
-
-* java并发包提供了哪些并发工具类
-
-* java并发类库提供的线程池有哪几种？分别有什么特点？
+	解答: [java有几种文件拷贝方式？哪一种最高效？](https://blog.csdn.net/qweqwruio/article/details/81359618)
 
 * AtomicInteger底层实现原理是什么？如何在自己的产品代码中应用CAS操作
 
-* 有哪些方法可以在运行时动态生成一个Java类？
-
-* 你了解java应用开发中的注入攻击吗？
-
-* 如何写出安全的java代码？
-
-* 谈谈你对java平台的理解
+	解答: [AtomicInteger源码分析——基于CAS的乐观锁实现](https://blog.csdn.net/qfycc92/article/details/46489553)
 
  ## java集合
 
@@ -132,13 +111,13 @@
 
 * 谈谈你对HashMap的理解，底层的基本实现。HashMap是怎么解决碰撞问题的？这些数据结构中是线程安全的吗？
 
-* 如何保证集合是线程安全的？ConcurrentHashMap如何实现高效的线程安全？
-
-* 并发包中的ConcurrentLinkedQueue和LinkedBlockingQueue有什么区别
-
 * Set的实现原理
 
 * concurrentMap,TreeMap的机制
+
+	* 必问题，每个同学都应该看看源码，对以上全部问题都应该答出来
+	
+        解答: [Java集合类，从源码解析底层实现原理](https://my.oschina.net/90888/blog/1624758)
 
 ## jvm
  * 结合内存说下多线程、进程、线程的区别
@@ -183,6 +162,10 @@
 
 ## 多线程
 
+* 如何保证集合是线程安全的？ConcurrentHashMap如何实现高效的线程安全？
+
+* 并发包中的ConcurrentLinkedQueue和LinkedBlockingQueue有什么区别
+
 * 说说阻塞队列的实现：可以参考ArrayBlockingQueue的底层实现（锁和同步都行）；
 
 * 进程通讯的方式：消息队列，共享内存，信号量，socket通讯等；
@@ -200,9 +183,23 @@
 * 线程池的构造类的方法的5个参数的具体意义
 
 * volatile关键字的用法：使多线程中的变量可见；
+
+* synchronized和ReentrantLock有什么区别？
+
+* synchronized底层如何实现？什么是锁升级，降级？
+
+* 一个线程二次调用start()方法会出现什么情况
+
+* 什么情况下java程序会产生死锁？如何定位，修复？
+
+* java并发包提供了哪些并发工具类
+
+* java并发类库提供的线程池有哪几种？分别有什么特点？
  
  
- # 二. IO:
+ # 三. IO:
+ 
+* java提供哪些IO方式，NIO如何实现多路复用？
  
 *  bio，nio，aio的区别；
 
@@ -211,7 +208,7 @@
 * 熟悉IO么？与NIO的区别，阻塞与非阻塞的区别
 
 
- # 三. 算法：
+ # 四. 算法：
 
 * java中常说的堆和栈，分别是什么数据结构；另外，为什么要分为堆和栈来存储数据。
 
@@ -312,7 +309,7 @@
 * 如何统计某个字符串行数；
 
 
- # 十一、 三大框架方面问题
+ # 十、 三大框架方面问题
   
 * springMVC和mybatis的工作原理，底层源码理解多少？
 
@@ -344,7 +341,20 @@
 
 *  mybatis如何处理结果集：反射，建议看看源码；
 
-	
+
+# 十一、极客java核心36问
+
+* 有哪些方法可以在运行时动态生成一个Java类？
+
+* 你了解java应用开发中的注入攻击吗？
+
+* 如何写出安全的java代码？
+
+* 谈谈你对java平台的理解
+
+* 动态代理是基于什么原理
+
+
 
 # 十五、架构
 
